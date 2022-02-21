@@ -1,38 +1,77 @@
-.App {
-  text-align: center;
+.Upper-space {
+  padding: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.body_part {
+  margin: auto;
+  width: 90%;
+  /* border: 2px solid #b8b8b8; */
+  padding: 10px;
+  background-color: #e6e6e6;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* for the coding area */
+/* list */
+.Program-List {
+  /* margin: 2px; */
+  /* width: 30%; */
+  padding: 1px;
+  padding-bottom: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* Settings */
+
+/* Text */
+.mb-3 {
+  width: 100%;
+  /* border: 2px solid #adadad; */
 }
 
-.App-link {
-  color: #61dafb;
+.check-box {
+  width: fit-content;
+  margin-top: 1%;
+  margin-left: 5%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.compile-btn {
+  padding-top: 1%;
+  margin-left: 85%;
+  padding-bottom: 1%;
+}
+
+.custom_Input {
+  width: 30%;
+  padding-top: 2%;
+  margin-left: 5%;
+  height: 6rem;
+  display: inline-block;
+  /* for temp */
+  /* padding-bottom: 30%; */
+}
+
+.block-example {
+  width: 60%;
+  /* background-color: #eee; */
+  display: inline-block;
+}
+
+.compilebtn {
+  /* margin-left: auto;   */
+  float: right;
+  padding-top: 1%;
+  padding-right: 2%;
+  /* margin-right: 0px; */
+  /* margin-left: auto; */
+}
+
+.last-row {
+  width: 95%;
+}
+
+.output_Part{
+  width: 90%;
+  padding-left: 5%;
+  padding-top: 1%;
+  padding-bottom: 20%;
 }
